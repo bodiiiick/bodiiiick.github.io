@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olimp</title>
+    <link href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/styles.css">
+    <script type="text/javascript" src="https://unpkg.com/jquery-snowfall@1.7.4/dist/snowfall.jquery.min.js" ></script>
+    <script>
+        setTimeout(function (argument) {
+            $(document).snowfall({flakeCount : 100, minSize:1, maxSize:4, round: 4});
+        }, 1000);
+    </script>
+</head>
+<body class=" --bs-body-font-family --bs-body-font-size --bs-body-font-weight --bs-body-line-height --bs-body-color --bs-body-text-align --bs-body-bg-webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent;">
+<!--ХЕдер-->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="https://vcolnuft.volyn.ua/">
+                <img src="image/VOFC_NUFT_sv_512.png" alt="ЛОГО:)" width="55" height="55">
+            </a>
+
+            <a style="font-size: 30px" class="navbar-brand" href="https://vcolnuft.volyn.ua/">Волинський фаховий коледж НУХТ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div  style="font-size: 20px" class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Головна</a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link  active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Курси
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sectionAndroid1.html">"Кодування андроїд"</a></li>
+                            <li><a class="dropdown-item" href="sectionOlimp2.html">"Олімпійський резерв"</a></li>
+                            <li><a class="dropdown-item" href="sectionWeb3.html">"Основи Web-дизайну"</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#section1">Курси</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section5">Контакти</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- СЛайдер -->
+<div id="carouselExampleCaptions" class="carousel slide ride bg-body-tertiary w3-round-xlarge"  data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item">
+            <img src="image/в3.jpg" class="d-block w-100 "   alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+                <h5 style="font-size: 45px; color: white; -webkit-text-stroke: 1px #000000;">Кодуємо Android</h5>
+                <p style="font-size: 35px; color: white; -webkit-text-stroke: 1px #000000;">Зимова школа програмування</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/вф.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-size: 45px; color: white; -webkit-text-stroke: 1px #000000;">Олімпійський резерв</h5>
+                <p style="font-size: 35px; color: white; -webkit-text-stroke: 1px #000000;">Зимова школа програмування</p>
+            </div>
+        </div>
+        <div class="carousel-item active">
+            <img src="image/pexels-lukas-574071.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-size: 45px; color: white; -webkit-text-stroke: 1px #000000;">Основи web-дизайну</h5>
+                <p style="font-size: 35px; color: white; -webkit-text-stroke: 1px #000000;">Зимова школа програмування</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<main class="main">
+    <!--    ГОловний ТЕКСТ-->
+    <div class="text-about " >
+        <p class="text1">
+            <a id="section1" href="#section1" style="color: black;text-decoration: none">  <strong>БЕЗКОШТОВНІ КУРСИ ЗІ СТВОРЕННЯ WEB-САЙТІВ</strong></a>
+        </p>
+        <p class="text2">
+            <strong>Записуйся на на курс, по завершенні якого ти навчишся створювати сучасні сайти.</strong>
+        </p>
+        <p class="text2">
+            Курс проводиться за підтримки фонду BrainBasket (https://brainbasket.org/). Навчальна програма базуються на курсах провідних навчальних закладів світу та визнаних відкритих освітніх ресурсів, зокрема University of London, Microsoft, W3Schools, Mozilla MDN web docs та ін. Програма маю на меті навчити слухача основам розробки сучасних веб-сторінок із застосуванням найпоширеніших методик та інструментів.
+        </p>
+        <p class="text2">
+            Програма викладаються у форматі blended learning (змішане навчаннѐ) та передбачає 16 аудиторних занять (15 навчальних + захист фінальних проектів слухачів) тривалістя 2 астрономічні години кожне протягом 8 тижнів. Передбачаються, що на кожне таке заняття слухачі приходитимуть, самостійно опанувавши передбачені цією програмою обсяги теоретичного матеріалу та (там де це передбачено) виконавши домашнє завдання.
+        </p>
+        <p class="text2">
+            В залежності від складності та логіки викладання, кожне аудиторне заняття покриває від 1 до 7 тем (в залежності від їх складності). За потреби деякі заняття викладач може ділити на окремі частини, зважаючи на успішність та рівень засвоєння матеріалу групою.
+        </p>
+        <p class="text2">
+            Кожне із занять містить практичні рекомендації та приклади, теоретичний матеріал для самостійного опрацювання слухачами та домашні завдання для них.
+        </p>
+        <p class="text2">
+            За підсумками проходження навчання в рамках проекту всі учасники повинні пройти випускне тестування та захистити фінальний проект.
+        </p>
+        <p style="font-size: 30px" class="text1">
+            <strong class="text-danger">УВАГА!</strong><strong>Реєстрація на курси почнеться 21 грудня і триватиме до 31 грудня 2023 р.</strong>
+        </p>
+
+        <p style="padding-top: 30px;font-size: 40px" class="text1">
+            <a id="section1" href="#section1" style="color: black;text-decoration: none">  <strong>Програма курсів</strong></a>
+        </p>
+        <p class="text2">
+            Ми будемо разом вести щоденник повідомляючи Вам про тему і зміст заняття, домашні завдання з практики та теорії
+        </p>
+    </div>
+    <!--        ACordion-->
+    <div class="accordion " id="accordionExample" >
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <strong>День 1</strong>
+                </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>День 2</strong>
+                </button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>День 3</strong>
+                </button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-about">
+    <button type="button" class="btn btn-success" style="font-size: 30px">Зареєструватись</button>
+    </div>
+    <!--    КОнтакти-->
+    <p style="padding-top: 30px;font-size: 40px" class="text1">
+        <a id="section5" href="#section5" style="color: black;text-decoration: none">  <strong>Контакти</strong></a>
+    </p>
+    <div class="card-container">
+        <div>
+            <ul>
+                <li style="display: flex; align-items: center;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/63/63633.png" style="width: 22px; margin-right: 8px;" alt="">
+                    <a style="color: black" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB+%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+%D0%9B%D1%83%D1%86%D1%8C%D0%BA,+%D0%92%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+43000/@50.7383452,25.3178813,17z/data=!3m1!4b1!4m6!3m5!1s0x47259992d8035519:0x18708846b592e1a4!8m2!3d50.7383418!4d25.3204562!16s%2Fg%2F1pty_thf4?entry=ttu">
+                        <span style="font-size: 24px;">вул. Кафедральна, 6, м. Луцьк, Україна, 43016</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li style="display: flex; align-items: center;">
+                    <img src="https://papik.pro/uploads/posts/2021-12/thumbs/1639191575_3-papik-pro-p-telefon-klipart-5.png" style="width: 22px; margin-right: 8px;" alt="">
+                    <span style="font-size: 24px;">(0332) 721 217 - приймальна директора ВоФК НУХТ</span>
+            </ul>
+            <ul>
+                <li style="display: flex; align-items: center;">
+                    <img src="https://imgpng.ru/d/phone_PNG49042.png" style="width: 22px; margin-right: 8px;" alt="">
+                    <span style="font-size: 24px;">066 079 9579 - Шепелюк Галина Степанівна - організатор Зимової школи</span>
+            </ul>
+            <ul>
+                <li style="display: flex; align-items: center;">
+                    <img src="https://banner2.cleanpng.com/20180627/rk/kisspng-email-computer-icons-clip-art-red-envelope-letter-5b333cede1c257.6554999115300845899247.jpg" style="width: 22px; margin-right: 8px;" alt="">
+                    <span style="font-size: 24px;">vocnuft@gmail.com</span>
+            </ul>
+            <ul>
+                <li style="display: flex; align-items: center;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25333.png" style="width: 22px; margin-right: 8px;" alt="">
+                    <span style="font-size: 24px;">Виникли питання? <a href="https://docs.google.com/forms/d/1SutQsnXurfWarHhfGo_HYZJTXRx_hS82RnE71phY3Io/viewform?edit_requested=true" style="font-size: 24px;color: black">Задайте їх тут</a></span>
+            </ul>
+        </div>
+        <iframe src="https://snazzymaps.com/embed/114807" class="map"></iframe>
+    </div>
+</main>
+<svg>
+    <defs>
+        <clipPath id="svgPath" clipPathUnits="objectBoundingBox" transform="scale(0.00083 0.0075)">
+            <path d="M1397,490H204c263,0,160-32,371-33,191.52-.91,150.49-135.14,225-92C990,475,1144,490,1397,490Z" transform="translate(-178 -350.46)" />
+        </clipPath>
+    </defs>
+</svg>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/jquery-snowfall@1.7.4/dist/snowfall.jquery.min.js" ></script>
+<script>
+    setTimeout(function (argument) {
+        $(document).snowfall({flakeCount : 100, minSize:1, maxSize:4, round: 4});
+    }, 1000);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

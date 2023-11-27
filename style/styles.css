@@ -1,0 +1,108 @@
+body{
+
+}
+.navbar{
+}
+
+
+.navbar-brand{
+    margin: 1px;
+}
+header{
+    display: grid;
+}
+
+
+.carousel-item{
+    max-height: 600px;
+}
+main {
+    margin: 2rem auto;
+    max-width: 80rem;
+    padding: 0 1rem;
+}
+.text-about{
+    justify-content: center;
+    display: inline;
+    padding-top: 20px;
+}
+.text1{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text2{
+    justify-content: center;
+    display: flex;
+    font-size: 22px;
+}
+.accordion-button{
+    font-size: 24px;
+}
+
+.btn{
+    display: inherit;
+    justify-content: center;
+
+}
+
+
+
+.card-img-center{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 125px;
+
+}
+.mini-logo{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    border-radius: 5%;
+    transition:  0.4s;
+
+}
+
+.card1:hover{
+    filter: brightness(0.8);
+    border-radius: 13% 13%;
+    transition:  0.4s;
+}
+.card-center{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-about{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.map {
+    width: 500px;
+    height: 300px;
+}
+
+@media (max-width: 425px) {
+    .card-about{
+        max-width: 286px;
+    }
+    .text1{
+        font-size: 50px;
+    }
+}
+
